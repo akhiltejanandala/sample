@@ -1,0 +1,37 @@
+.list-view-container {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  padding-right: 10px;
+  padding-left: 20px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  box-sizing: border-box;
+}
+
+.list-view-container:hover {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.listProfileDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listProfileIcon {
+  height: 25px;
+  width: 25px;
+  margin-right: 15px;
+}
+
+.user-details {
+  padding-bottom: 2px;
+  font-size: 16px;
+}

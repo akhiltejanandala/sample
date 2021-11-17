@@ -1,0 +1,98 @@
+.form-container {
+  background-color: #ffffff;
+  border-radius: 30px;
+  margin: 0;
+  width: 74vw;
+  height: 75vh;
+  color: #808080;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 80px;
+  align-items: center;
+}
+.form-input {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+.input-styles {
+  background-color: #ededed;
+  height: 40px;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 10px;
+  width: 400px;
+  font-size: 20px;
+  color: #808080;
+  font-family: 'Roboto';
+}
+.active-input {
+  border: 0;
+}
+
+.err-msg {
+  font-size: 16px;
+  color: #ff3333;
+  margin: 0;
+}
+
+.err-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  margin-left: 1.5vw;
+}
+
+.select-styles {
+  width: 412px;
+  border: 0;
+  background-color: #ededed;
+  height: 40px;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #808080;
+}
+
+.input-label {
+  font-size: 20px;
+  width: 110px;
+}
+
+.btn-styles {
+  width: 412px;
+  height: 38px;
+  background-color: #a1e0ff;
+  outline: none;
+  color: #ffffff;
+  border-radius: 10px;
+  border: 0px;
+  font-size: 18px;
+  margin-left: 112px;
+}
+
+.row-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 28px 28px 45px 28px;
+  background: #e5e5e5;
+  height: max-content;
+  overflow-y: auto;
+}
+
+.col-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5vw;
+}

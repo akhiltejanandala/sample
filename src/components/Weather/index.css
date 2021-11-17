@@ -1,0 +1,99 @@
+.form-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  margin-left: 1.5vw;
+}
+
+.weather-container {
+  background-color: #ffffff;
+  margin: 0;
+  width: 74vw;
+  height: 75vh;
+  color: #808080;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.input-label {
+  font-size: 22px;
+  width: 118px;
+  color: #646464;
+  margin-bottom: 5px;
+}
+
+.state {
+  width: 412px;
+  border: 0;
+  background-color: #ededed;
+  height: 40px;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #808080;
+}
+
+.climate-info-container {
+  color: #ffffff;
+  display: flex;
+  background-color: #a1e0ff;
+  width: 70%;
+  justify-content: space-evenly;
+  border-radius: 18px;
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.temp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.vr {
+  display: inline-block;
+  width: 3px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  height: 80px;
+}
+.temp-item {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 250%;
+  height: 100px;
+  font-family: 'Podkova';
+  font-weight: 400;
+}
+
+.forecast-heading {
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin: 0;
+}
+
+.row-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 28px 28px 45px 28px;
+  background: #e5e5e5;
+}
+
+.col-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5vw;
+}

@@ -1,0 +1,35 @@
+.header-container {
+  height: 10vh;
+  padding: 15px;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-and-date {
+  font-size: 24px;
+  font-weight: 400;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile-icon {
+  height: 40px;
+  margin-left: 10px;
+}
+.user-profile-name {
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  .header-container {
+    height: 35px;
+  }
+  .time-and-date {
+    font-size: 18px;
+  }
+}

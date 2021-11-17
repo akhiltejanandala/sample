@@ -1,0 +1,97 @@
+.hrLine {
+  align-self: center;
+  width: 80%;
+  border: 1px solid #a1e0ff;
+}
+
+.websiteLogo {
+  width: 60%;
+  align-self: center;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sidebar-button {
+  background-color: white;
+  border: none;
+  color: #94ddff;
+  justify-content: left;
+  width: 15vw;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 80%;
+  margin: 4px 2px;
+  cursor: pointer;
+  max-width: 100vw;
+  border-radius: 10px;
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .sidebar-button {
+    padding: 10px 8px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .sidebar-button {
+    padding: 10px 0px;
+  }
+}
+
+button:hover {
+  background-color: #94ddff;
+  color: white;
+}
+.logo-sub {
+  background-color: inherit;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+button {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #94ddff;
+  color: #ffffff;
+}
+
+.nav-theme-container {
+  background-color: #ffffff;
+  color: #a1e0ff;
+}
+.nav-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+.nav-position {
+  width: 20%;
+}
+
+@media screen and (max-width: 570px) {
+  .nav-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-position {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .nav-position {
+    width: 13%;
+  }
+}

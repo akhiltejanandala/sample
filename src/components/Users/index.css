@@ -1,0 +1,72 @@
+.form-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  margin-left: 1.5vw;
+}
+
+.users-container {
+  background-color: #ffffff;
+  width: 74vw;
+  height: 75vh;
+  color: #808080;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.search-heading {
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+
+.search-input {
+  background-color: #ededed;
+  height: 35px;
+  border: 0;
+  padding-left: 10px;
+  border-radius: 10px;
+  width: 400px;
+  font-size: 20px;
+  color: #808080;
+  font-family: 'Roboto';
+}
+
+.cardsHeading {
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+
+.cardListContainer {
+  display: flex;
+  width: 73vw;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.listViewContainer {
+  padding: 0;
+  height: 30vh;
+  overflow-y: auto;
+}
+
+.row-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 28px 28px 45px 28px;
+  background: #e5e5e5;
+}
+
+.col-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5vw;
+}
